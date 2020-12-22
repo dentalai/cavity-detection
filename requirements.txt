@@ -12,3 +12,4 @@ youtube-dl
 wget
 pipenv
 imutils
+libgtk2.0-dev
