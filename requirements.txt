@@ -4,7 +4,8 @@ streamlit
 # Python packages
 
 # Computer Vision
-opencv-python-headless
+opencv-python==4.1.1.26
+
 # get data from URL
 pafy
 youtube-dl
