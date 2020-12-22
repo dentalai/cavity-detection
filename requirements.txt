@@ -14,3 +14,4 @@ youtube-dl
 wget
 pipenv
 imutils
+libgthread-2.0.so.0
