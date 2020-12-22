@@ -5,7 +5,7 @@
 import datetime
 import urllib
 import time
-import cv2 as cv
+import cv2.cv as cv
 import streamlit as st
 
 
