@@ -5,7 +5,7 @@ streamlit
 numpy==1.17.2
 
 # Computer Vision
-opencv-python-headless==3.4.2.16
+opencv-python-headless
 # get data from URL
 pafy
 youtube-dl
