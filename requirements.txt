@@ -2,14 +2,14 @@
 streamlit
 
 # Python packages
+numpy==1.17.2
 
 # Computer Vision
-opencv-contrib-python
-opencv-python
+opencv-python-headless
+
 # get data from URL
 pafy
 youtube-dl
 wget
 pipenv
 imutils
-libgtk2.0-dev
