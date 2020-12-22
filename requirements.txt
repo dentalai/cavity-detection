@@ -2,7 +2,6 @@
 streamlit
 
 # Python packages
-numpy==1.17.2
 
 # Computer Vision
 opencv-python-headless
