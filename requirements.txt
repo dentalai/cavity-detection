@@ -4,7 +4,7 @@ streamlit
 # Python packages
 
 # Computer Vision
-opencv-python==4.1.1.26
+opencv-contrib-python-headless
 
 # get data from URL
 pafy
