@@ -5,7 +5,7 @@ streamlit
 numpy==1.17.2
 
 # Computer Vision
-
+opencv-python--headless
 opencv-contrib-python
 
 # get data from URL
