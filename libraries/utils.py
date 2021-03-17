@@ -205,8 +205,8 @@ class AppManager:
             if self.model == 'Caffe-MobileNetSSD':
 
                 self.paramMobileNetSSD = dict(
-                    prototxt="models/MobileNetSSD_deploy.prototxt.txt",
-                    caffeModel="models/MobileNetSSD_deploy.caffemodel",
+                    prototxt="MobileNetSSD_deploy.prototxt.txt",
+                    caffeModel="MobileNetSSD_deploy.caffemodel",
                     confThresh=self.guiParam["confThresh"])
 
                 self.objApp = plugins.Object_Detection_MobileNetSSD(
@@ -214,17 +214,17 @@ class AppManager:
 
             elif self.model == 'Darknet-YOLOv3':
                 self.paramYolo = dict(labels='coco.names',
-                                      modelCfg="/yolov3.cfg",
-                                      modelWeights="/yolov3.weights",
+                                      modelCfg="yolov3.cfg",
+                                      modelWeights="yolov3.weights",
                                       confThresh=self.guiParam['confThresh'],
                                       nmsThresh=self.guiParam['nmsThresh'])
 
                 self.objApp = plugins.Object_Detection_YOLO(self.paramYolo)
 
             elif self.model == 'Darknet-YOLOv3-tiny':
-                self.paramYoloTiny = dict(labels='models/DarkNet/coco.names',
-                                          modelCfg='models/DarkNet/yolov3-tiny.cfg',
-                                          modelWeights="models/DarkNet/yolov3-tiny.weights",
+                self.paramYoloTiny = dict(labels='coco.names',
+                                          modelCfg='yolov3-tiny.cfg',
+                                          modelWeights="yolov3-tiny.weights",
                                           confThresh=self.guiParam['confThresh'],
                                           nmsThresh=self.guiParam['nmsThresh'])
 
