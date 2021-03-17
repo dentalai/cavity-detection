@@ -214,8 +214,8 @@ class AppManager:
 
             elif self.model == 'Darknet-YOLOv3':
                 self.paramYolo = dict(labels='coco.names',
-                                      modelCfg="yolov3.cfg",
-                                      modelWeights="yolov3.weights",
+                                      modelCfg="/yolov3.cfg",
+                                      modelWeights="/yolov3.weights",
                                       confThresh=self.guiParam['confThresh'],
                                       nmsThresh=self.guiParam['nmsThresh'])
 
