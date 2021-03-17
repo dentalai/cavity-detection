@@ -18,7 +18,7 @@ import youtube_dl
 from imutils.video import FPS, FileVideoStream, WebcamVideoStream
 from PIL import Image
 
-import libraries.plugins as plugins
+import plugins as plugins
 
 colorWhite = (255, 255, 255)
 colorBlack = (0, 0, 0)
